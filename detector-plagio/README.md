@@ -21,8 +21,8 @@
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_REPOSITORIO>
+   git clone <https://github.com/Roxulu67/Detector-de-Plagio-Final.git>
+   cd <Detector-de-Plagio-Final>
 
 2. Crea y activa un entorno virtual
     python -m venv venv
