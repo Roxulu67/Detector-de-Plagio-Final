@@ -1,6 +1,7 @@
 # Detector de Plagio para Trabajos Estudiantiles
 
-### Estructura del repositorio:
+### Estructura del repositorio
+   El proyecto cuenta con la siguiente estructura: 
 
 1. **1_documentos/**
    - Contiene los archivos de texto (.txt) con los trabajos estudiantiles a analizar
