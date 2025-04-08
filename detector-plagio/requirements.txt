@@ -1,2 +1,6 @@
-numpy
 matplotlib
+networkx
+pandas
+numpy
+scikit-learn  
+pytest
