@@ -1,5 +1,27 @@
 # Detector de Plagio para Trabajos Estudiantiles
 
+### Estructura del repositorio:
+
+1. **1_documentos/**
+   - Contiene los archivos de texto (.txt) con los trabajos estudiantiles a analizar
+
+2. **2_src/**
+   - Módulos principales del sistema
+
+
+3. **3_tests/**
+   - Pruebas automatizadas para validar el funcionamiento
+
+4. **4_resultados/**
+   - Almacena:
+     - Reportes de similitud
+     - Gráficos de visualización
+
+5. **Archivos raíz:**
+   - `main.py`: Punto de entrada principal
+   - `requirements.txt`: Lista de paquetes necesarios
+   - `README.md`: Documentación
+
 ## Descripción
     Este proyecto es un sistema de detección de plagio que identifica similitudes entre trabajos estudiantiles utilizando técnicas de procesamiento de texto y algoritmos de comparación.
 
@@ -39,28 +61,7 @@
     2. Ejecuta el script principal:
         python main.py
     3. Los resultados se guardarán en la carpeta resultados/.
-  
-### Estructura del repositorio:
-
-1. **1_documentos/**
-   - Contiene los archivos de texto (.txt) con los trabajos estudiantiles a analizar
-
-2. **2_src/**
-   - Módulos principales del sistema
-
-
-3. **3_tests/**
-   - Pruebas automatizadas para validar el funcionamiento
-
-4. **4_resultados/**
-   - Almacena:
-     - Reportes de similitud
-     - Gráficos de visualización
-
-5. **Archivos raíz:**
-   - `main.py`: Punto de entrada principal
-   - `requirements.txt`: Lista de paquetes necesarios
-   - `README.md`: Documentación
+       
 
 ## Integrantes del equipo
 - Darla Solis
