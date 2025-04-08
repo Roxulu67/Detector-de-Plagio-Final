@@ -1,24 +1,41 @@
-# Detector de Plagio
+# Detector de Plagio para Trabajos Estudiantiles
 
 ## Descripción
-Este proyecto es un sistema de detección de plagio diseñado para el ámbito académico. Utiliza una combinación de n-gramas, tablas hash para indexado rápido y algoritmos de ordenamiento optimizados para comparar eficientemente documentos. El sistema puede:
+    Este proyecto es un sistema de detección de plagio que identifica similitudes entre trabajos estudiantiles utilizando técnicas de procesamiento de texto y algoritmos de comparación.
 
-- Detectar tanto copias literales como paráfrasis sofisticadas
-- Analizar similitudes estructurales y semánticas
-- Procesar múltiples formatos de documentos
-- Generar reportes detallados con porcentajes de coincidencia
 
-## Instrucciones de Instalación
-1. Clona el repositorio.
-2. Instala las dependencias usando `pip install -r requirements.txt`.
+## Funcionalidades
+    Generación de documentos de texto aleatorios.
+    Preprocesamiento de documentos para análisis.
+    Cálculo de similitudes entre documentos utilizando diferentes métodos.
+    Visualización de resultados a través de gráficos.
+    Interfaz gráfica para facilitar la interacción del usuario.
 
-## Ejemplo de Uso
-Ejecuta el archivo `main.py` para iniciar el sistema.
+## Instalación
+    - Requisitos Previos
+    1. Asegúrate de tener instalado Python (versión 3.6 o superior) en tu sistema. También necesitarás las siguientes bibliotecas:
 
-## Visualización de Resultados
-Los resultados se guardarán en la carpeta `resultados/`.
+        pandas
+        matplotlib
+        tkinter (generalmente incluido con Python)
 
-## Integrantes del equipo
-- Darla Solis
-- Yasser Suárez
-- Rodrigo Tovar
+1. Clona el repositorio:
+   ```bash
+   git clone <https://github.com/Roxulu67/Detector-de-Plagio-Final.git>
+   cd <Detector-de-Plagio-Final>
+
+2. Crea y activa un entorno virtual
+    python -m venv venv
+    # En Windows
+    venv\Scripts\activate
+    # En macOS/Linux
+    source venv/bin/activate
+
+3. Instala las dependencias:
+    pip install -r requirements.txt
+
+3. Ejecutar
+    1. Genera documentos en la carpeta documentos/.
+    2. Ejecuta el script principal:
+        python main.py
+    3. Los resultados se guardarán en la carpeta resultados/.
