@@ -1,4 +1,4 @@
-## Detector de Plagio para Trabajos Estudiantiles
+### Detector de Plagio para Trabajos Estudiantiles
 
 ## Estructura del repositorio
 
