@@ -1,7 +1,7 @@
 # Detector de Plagio
 
 ## Descripción
-Este proyecto es un sistema de detección de plagio diseñado para el ámbito académico. Utiliza una combinación de tablas hash para indexado rápido y algoritmos de ordenamiento optimizados para comparar eficientemente documentos. El sistema puede:
+Este proyecto es un sistema de detección de plagio diseñado para el ámbito académico. Utiliza una combinación de n-gramas, tablas hash para indexado rápido y algoritmos de ordenamiento optimizados para comparar eficientemente documentos. El sistema puede:
 
 - Detectar tanto copias literales como paráfrasis sofisticadas
 - Analizar similitudes estructurales y semánticas
